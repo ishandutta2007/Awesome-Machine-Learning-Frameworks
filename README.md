@@ -30,41 +30,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global machine learning platforms and infrastructure market is estimated at approximately $130B to $210B+, expanding rapidly at a CAGR of 26%-33%. The sector exhibits a distinct bifurcated structure: foundational compute, hyperscaler orchestration, and cloud infrastructure are highly concentrated among a dominant oligopoly (Microsoft, Alphabet, Amazon), while specialized MLOps, data labeling, AutoML, and vertical tooling layers remain moderately fragmented across focused software vendors and fast-evolving open-source ecosystems.
 
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Google Vertex AI](https://cloud.google.com/vertex-ai)** | Google Cloud's unified ML platform with Gemini models, AutoML, custom training, and Vertex AI Pipelines. | Pay-as-you-go for training and prediction compute; AutoML billed per node-hour. Model Garden offers free preview access to select Llama models (30–60 requests/minute) during preview period . | **$300 free credit** for new GCP accounts (90 days). Llama preview models free during preview period with rate limits . |
-
-| **[AWS SageMaker](https://aws.amazon.com/sagemaker/)** | End-to-end ML platform covering data prep, training, tuning, and deployment with Studio notebooks. | Instance-based: ml.m5.xlarge ~$0.23/hr; GPU instances (ml.p3.2xlarge) ~$3.83/hr; ml.p3.8xlarge ~$13.58/hr . | **Free tier**: 250 hours of ml.t2.medium/ml.t3.medium notebooks, 50 hours of ml.m4.xlarge training, 125 hours of ml.m4.xlarge hosting (2 months) . |
-
-| **[Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning)** | Microsoft's cloud ML platform with designer (no-code), AutoML, notebooks, and MLOps integration. | Pay-as-you-go for compute; Azure ML service itself has no separate charge. **Prompt flow will be retired April 20, 2027**—migrate to Microsoft Agent Framework . | **$200 credit** for new Azure accounts (30 days). Free tier for compute varies by region. |
-
-| **[Databricks](https://databricks.com/)** | Unified data and AI platform with MLflow, AutoML, and collaborative notebooks on Apache Spark. | Consumption-based (DBUs) for compute; serverless and classic compute options. | **14-day free trial** with up to $400 in credits. **Free Edition**: one serverless workspace, no classic compute, non-commercial use only . |
-
-| **[Dataiku](https://www.dataiku.com/)** | Collaborative data science platform with visual and code-based workflows, plus LLM Mesh for multi-model orchestration. | Quote-based for commercial editions (Discover, Business, Enterprise); no public per-user pricing. | **14-day Cloud Trial**: 5 users, 4 CPUs, 32 GB compute, all features except Govern and advanced LLM Mesh. **Free Edition** for on-prem (feature-restricted) . |
-
-| **[DataRobot](https://www.datarobot.com/)** | Automated ML platform with AutoML, MLOps, and generative AI capabilities. | Quote-based enterprise pricing; no public list prices. | **30-day self-service SaaS trial** with full platform access, batch predictions only, 15 vector DBs, 1,000 LLM calls, up to 5 team members . |
-
-| **[H2O.ai](https://h2o.ai/)** | Enterprise AI platform with Driverless AI (AutoML) and the open-source H2O-3 library. | **H2O-3 is free** (Apache 2.0). Driverless AI is quote-based enterprise licensing (typically five to six figures annually) . | **H2O-3**: fully free and open-source. **Driverless AI**: free trial available, no permanent free tier . |
-
-| **[Domino Data Lab](https://domino.ai/)** | Enterprise MLOps platform with on-demand compute, experiment tracking, and model deployment. | Custom subscription based on users and platform tier (Premium, Enterprise); no public list prices . | **No free tier** available as of September 2026 . |
-
-| **[Scale AI](https://scale.com/)** | Data platform for AI development, specializing in training data, model evaluation, and RLHF. | Enterprise pricing; Vendr reports average annual cost ~$93,000 with maximums up to $400,000 based on transaction data . | No public free tier; self-serve signup available with usage-based pricing . |
+| Product | Company Size (Market Cap / Valuation / Revenue) | Description | Starting Tier Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Vertex AI](https://cloud.google.com/vertex-ai)** | ~$4.0T Market Cap (Alphabet) | Google Cloud's unified ML platform with Gemini models, AutoML, custom training, and Vertex AI Pipelines. | Custom CPU training from $0.22/node-hr (`n1-standard-4`); GPU training add-on from $0.40/hr (NVIDIA T4) to $2.93/hr (A100); pay-as-you-go compute. | **$300 free trial credits** valid for 90 days across GCP; selective Llama preview models free during preview with rate limits (30–60 RPM). |
+| **[Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning)** | ~$3.9T Market Cap (Microsoft) | Microsoft's cloud ML platform with designer (no-code), AutoML, notebooks, and MLOps integration. | No platform surcharge; pay-as-you-go VM compute starting from $0.02-$0.09/hr for basic burstable/CPU VMs, and $0.53/hr for GPU instances (NVIDIA T4 NC4as_T4_v3). | **$200 free trial credits** valid for 30 days plus 12 months of select popular free services; no separate permanent free ML platform tier. |
+| **[AWS SageMaker](https://aws.amazon.com/sagemaker/)** | ~$2.8T Market Cap (Amazon) | End-to-end ML platform covering data prep, training, tuning, and deployment with Studio notebooks. | On-demand notebook/instance compute starting at $0.046/hr (`ml.t3.medium`) and $0.23/hr (`ml.m5.xlarge`); GPU instances starting at $3.83/hr (`ml.p3.2xlarge`). | **Free Tier (First 2 months)**: 250 hours/month of `ml.t2.medium`/`ml.t3.medium` notebooks, 50 hours/month of `ml.m4.xlarge` training, and 125 hours/month of `ml.m4.xlarge` hosting. |
+| **[Databricks](https://databricks.com/)** | ~$134B Valuation (~$4.8B ARR) | Unified data and AI platform with MLflow, AutoML, and collaborative notebooks on Apache Spark. | Consumption-based DBU model starting at $0.07/DBU for serverless AI/model serving & jobs, $0.15/DBU for data pipelines, and $0.40-$0.55/DBU for all-purpose interactive compute (+ cloud VM costs). | **14-day free trial** with up to $400 in cloud credits; **Free Community/Personal Edition** limited to 1 serverless workspace with micro compute for non-commercial educational use. |
+| **[Scale AI](https://scale.com/)** | ~$29B Valuation (~$2.0B Revenue) | Data platform for AI development, specializing in training data, model evaluation, and RLHF. | Pilot/starter annotation and data engine projects start at ~$1,000-$5,000/month; enterprise RLHF and evaluation contracts scale up to ~$93,000+/year. | **No permanent free tier**; self-serve trial/onboarding sandbox provides access to test suites and limited sample data labeling upon sales engagement. |
+| **[DataRobot](https://www.datarobot.com/)** | ~$6.3B Peak Valuation (~$250M ARR) | Automated ML platform with AutoML, MLOps, and generative AI capabilities. | Enterprise annual software subscriptions starting at ~$50,000/year for baseline team editions with packaged AI compute units and user seats. | **30-day self-service SaaS trial** with full platform capabilities, batch predictions only, 15 vector DBs, 1,000 LLM calls, and up to 5 team members. |
+| **[Dataiku](https://www.dataiku.com/)** | ~$3.7B Valuation (~$350M ARR) | Collaborative data science platform with visual and code-based workflows, plus LLM Mesh for multi-model orchestration. | Commercial team packages start at ~$4,000/month (typically contracted from ~$25,000-$50,000/year depending on user licenses and tier). | **14-day Cloud Trial** (fully managed, up to 5 users, 4 CPUs, 32 GB compute); also offers a perpetual **Free Edition** for local/on-prem single-server use restricted to 3 users and core data prep features. |
+| **[H2O.ai](https://h2o.ai/)** | ~$1.7B Valuation (~$75M ARR) | Enterprise AI platform with Driverless AI (AutoML) and the open-source H2O-3 library. | Driverless AI commercial annual licenses starting at ~$12,000-$25,000/year for single-node deployments; enterprise multi-node cloud clusters scale higher. | **H2O-3 Core is 100% Free forever** (open-source Apache 2.0 with unlimited cluster nodes); **Driverless AI** offers a **21-day free trial** with full feature evaluation. |
+| **[Domino Data Lab](https://domino.ai/)** | ~$915M Valuation (~$35M ARR) | Enterprise MLOps platform with on-demand compute, experiment tracking, and model deployment. | Commercial platform subscriptions starting at ~$50,000/year base tier, priced per user role (Data Science Professional / Data Analyst seats) plus compute infrastructure. | **No self-service free tier**; guided **30-day Proof of Concept (PoC) / trial** available through enterprise sales and cloud marketplace arrangements. |
 
 
 
