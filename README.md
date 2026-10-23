@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Machine-Learning-Frameworks?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Machine-Learning-Frameworks?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Machine-Learning-Frameworks?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Frameworks/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Machine-Learning-Frameworks?style=flat-square" alt="GitHub Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
@@ -76,77 +76,77 @@ The sector exhibits a distinct **bifurcated structure**:
 
 ## 💻 Open-Source GitHub Projects & Libraries
 
-*Ranked strictly in descending order of GitHub community stars. Star badges dynamically link to the repository stargazers page.*
+*Ranked strictly in descending order of GitHub community stars. Stars_Badges dynamically link to the repository stargazers page.*
 
-1. **[TensorFlow](https://github.com/tensorflow/tensorflow)** [![GitHub Stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers)  
+1. **[TensorFlow](https://github.com/tensorflow/tensorflow)** [![GitHub_Stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers)  
    📦 **The Production-Scale Standard (201k+ ⭐, Apache 2.0)**  
    Google's battle-tested end-to-end open-source machine learning framework. Features TensorFlow Serving for low-latency production microservices, TF Lite for edge/mobile devices, and TensorBoard for telemetry. Ideal for enterprise deployments needing stable compilation and TPU hardware acceleration.
 
-2. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** [![GitHub Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
+2. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
    🤗 **The Universal NLP & Generative AI Hub (168k+ ⭐, Apache 2.0)**  
    The definitive open-source standard for thousands of pre-trained state-of-the-art models spanning NLP, vision, audio, and multimodal tasks. Seamlessly integrates with PyTorch, TensorFlow, and JAX for fine-tuning and deployment.
 
-3. **[PyTorch](https://github.com/pytorch/pytorch)** [![GitHub Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)  
+3. **[PyTorch](https://github.com/pytorch/pytorch)** [![GitHub_Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)  
    🔥 **The Research & Dynamic Graph Workhorse (104k+ ⭐, BSD-3-Clause)**  
    The dominant dynamic computation graph framework powering academic AI breakthroughs and frontier model development. Offers Pythonic ergonomics, TorchScript JIT compilation, and TorchServe for scalable microservice deployments.
 
-4. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+4. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
    ⚡ **High-Throughput Distributed LLM Serving (95k+ ⭐, Apache 2.0)**  
    High-performance inference engine for LLMs featuring PagedAttention for near-optimal memory utilization, continuous batching, chunked prefill, and native tensor parallelization across GPUs.
 
-5. **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
+5. **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub_Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
    ⚙️ **The Classical Machine Learning Foundation (67k+ ⭐, BSD-3-Clause)**  
    The golden standard in Python for tabular ML, feature extraction, regression, clustering, preprocessing, and model validation. Fast, robust, and clean object-oriented APIs built on NumPy, SciPy, and Cython.
 
-6. **[Keras](https://github.com/keras-team/keras)** [![GitHub Stars](https://img.shields.io/github/stars/keras-team/keras?style=social&color=white)](https://github.com/keras-team/keras/stargazers)  
+6. **[Keras](https://github.com/keras-team/keras)** [![GitHub_Stars](https://img.shields.io/github/stars/keras-team/keras?style=social&color=white)](https://github.com/keras-team/keras/stargazers)  
    🎯 **The Multi-Backend High-Level API (64k+ ⭐, Apache 2.0)**  
    Human-centric deep learning framework that runs seamlessly across PyTorch, JAX, and TensorFlow backends. Drastically reduces boilerplate while offering rapid prototyping and reproducible experimentation.
 
-7. **[Ray](https://github.com/ray-project/ray)** [![GitHub Stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)  
+7. **[Ray](https://github.com/ray-project/ray)** [![GitHub_Stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)  
    🌐 **Unified Distributed AI & Compute Scaling (44k+ ⭐, Apache 2.0)**  
    Unified computing framework for scaling AI and Python applications from single laptops to vast cloud clusters. Powers distributed hyperparameter tuning (Ray Tune), distributed training (Ray Train), and low-latency model serving (Ray Serve).
 
-8. **[JAX](https://github.com/google/jax)** [![GitHub Stars](https://img.shields.io/github/stars/google/jax?style=social&color=white)](https://github.com/google/jax/stargazers)  
+8. **[JAX](https://github.com/google/jax)** [![GitHub_Stars](https://img.shields.io/github/stars/google/jax?style=social&color=white)](https://github.com/google/jax/stargazers)  
    🧪 **Composable Transformations & Accelerated Linear Algebra (36k+ ⭐, Apache 2.0)**  
    Combines Autograd and XLA compilation for composable functional array programming, reverse-mode autodiff, vectorization (`vmap`), and distributed TPU/GPU parallel execution (`pmap`).
 
-9. **[PyTorch Lightning](https://github.com/Lightning-AI/pytorch-lightning)** [![GitHub Stars](https://img.shields.io/github/stars/Lightning-AI/pytorch-lightning?style=social&color=white)](https://github.com/Lightning-AI/pytorch-lightning/stargazers)  
+9. **[PyTorch Lightning](https://github.com/Lightning-AI/pytorch-lightning)** [![GitHub_Stars](https://img.shields.io/github/stars/Lightning-AI/pytorch-lightning?style=social&color=white)](https://github.com/Lightning-AI/pytorch-lightning/stargazers)  
    ⚡ **Modular PyTorch Engineering Wrapper (31k+ ⭐, Apache 2.0)**  
    Decouples research code from engineering boilerplates, automating multi-GPU/TPU distributed training, 16-bit mixed precision, and checkpoint management while preserving raw PyTorch flexibility.
 
-10. **[XGBoost](https://github.com/dmlc/xgboost)** [![GitHub Stars](https://img.shields.io/github/stars/dmlc/xgboost?style=social&color=white)](https://github.com/dmlc/xgboost/stargazers)  
+10. **[XGBoost](https://github.com/dmlc/xgboost)** [![GitHub_Stars](https://img.shields.io/github/stars/dmlc/xgboost?style=social&color=white)](https://github.com/dmlc/xgboost/stargazers)  
     🌲 **The Gold Standard Gradient Boosting Framework (28k+ ⭐, Apache 2.0)**  
     Scalable, portable, and distributed gradient boosting library engineered for efficiency and speed across tabular classification, regression, and ranking. Benchmarked heavily in Kaggle competitions.
 
-11. **[MLflow](https://github.com/mlflow/mlflow)** [![GitHub Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)  
+11. **[MLflow](https://github.com/mlflow/mlflow)** [![GitHub_Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)  
     📈 **End-to-End MLOps Lifecycle Management (28k+ ⭐, Apache 2.0)**  
     Open platform to track experiments, package code into reproducible runs, register model artifacts, and manage model versioning and production deployment across cloud endpoints.
 
-12. **[FastAI](https://github.com/fastai/fastai)** [![GitHub Stars](https://img.shields.io/github/stars/fastai/fastai?style=social&color=white)](https://github.com/fastai/fastai/stargazers)  
+12. **[FastAI](https://github.com/fastai/fastai)** [![GitHub_Stars](https://img.shields.io/github/stars/fastai/fastai?style=social&color=white)](https://github.com/fastai/fastai/stargazers)  
     🚀 **Productive Deep Learning with Layered Architecture (28k+ ⭐, Apache 2.0)**  
     Simplifies training fast and accurate neural networks using modern best practices baked directly into opinionated high-level abstractions over PyTorch.
 
-13. **[ONNX](https://github.com/onnx/onnx)** [![GitHub Stars](https://img.shields.io/github/stars/onnx/onnx?style=social&color=white)](https://github.com/onnx/onnx/stargazers)  
+13. **[ONNX](https://github.com/onnx/onnx)** [![GitHub_Stars](https://img.shields.io/github/stars/onnx/onnx?style=social&color=white)](https://github.com/onnx/onnx/stargazers)  
     🔄 **Open Neural Network Exchange & Interoperability Format (21k+ ⭐, Apache 2.0)**  
     Universal intermediate representation format for AI models, enabling seamless interoperability between frameworks (PyTorch, TensorFlow, Scikit-learn) and deployment runtimes (ONNX Runtime, TensorRT).
 
-14. **[LightGBM](https://github.com/microsoft/LightGBM)** [![GitHub Stars](https://img.shields.io/github/stars/microsoft/LightGBM?style=social&color=white)](https://github.com/microsoft/LightGBM/stargazers)  
+14. **[LightGBM](https://github.com/microsoft/LightGBM)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/LightGBM?style=social&color=white)](https://github.com/microsoft/LightGBM/stargazers)  
     🍃 **Memory-Optimized Leaf-Wise Gradient Boosting (18k+ ⭐, MIT)**  
     Microsoft's high-speed gradient boosting framework utilizing tree-based learning algorithms with histogram binning and leaf-wise tree splitting for minimal memory consumption.
 
-15. **[Kubeflow](https://github.com/kubeflow/kubeflow)** [![GitHub Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers)  
+15. **[Kubeflow](https://github.com/kubeflow/kubeflow)** [![GitHub_Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers)  
     ☸️ **Cloud-Native Kubernetes ML Orchestrator (15k+ ⭐, Apache 2.0)**  
     The cloud-native machine learning platform for Kubernetes. Provides composable ML pipelines, Katib hyperparameter tuning, interactive Jupyter notebooks, and scalable KServe inference topologies.
 
-16. **[Triton Inference Server](https://github.com/triton-inference-server/server)** [![GitHub Stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)  
+16. **[Triton Inference Server](https://github.com/triton-inference-server/server)** [![GitHub_Stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)  
     🖥️ **Enterprise Multi-Framework Inference Server (11k+ ⭐, BSD-3-Clause)**  
     NVIDIA's production-grade multi-model serving engine supporting TensorRT, ONNX Runtime, PyTorch, and TensorFlow on both GPUs and CPUs with dynamic batching and concurrent execution.
 
-17. **[CatBoost](https://github.com/catboost/catboost)** [![GitHub Stars](https://img.shields.io/github/catboost/catboost?style=social&color=white)](https://github.com/catboost/catboost/stargazers)  
+17. **[CatBoost](https://github.com/catboost/catboost)** [![GitHub_Stars](https://img.shields.io/github/catboost/catboost?style=social&color=white)](https://github.com/catboost/catboost/stargazers)  
     🐱 **Categorical Gradient Boosting with Symmetric Trees (9k+ ⭐, Apache 2.0)**  
     Yandex's fast gradient boosting algorithm providing state-of-the-art out-of-the-box handling of categorical features and minimal overfitting via oblivious trees.
 
-18. **[BentoML](https://github.com/bentoml/BentoML)** [![GitHub Stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers)  
+18. **[BentoML](https://github.com/bentoml/BentoML)** [![GitHub_Stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers)  
     🍱 **The Unified Model Serving & API Framework (8k+ ⭐, Apache 2.0)**  
     Packages trained models from any framework into production microservices with adaptive batching, multi-model composition, container generation, and easy cloud/Kubernetes deployment.
 
@@ -160,7 +160,7 @@ We love community contributions! To suggest an update, add a framework, or refin
 2. 🌿 **Create a branch** for your feature (`git checkout -b feature/new-ml-framework`).
 3. 📝 **Add/edit entries** in `README.md` maintaining alphabetical SaaS and star-ranked open-source tables. Include:
    - Tool name & official documentation link
-   - Real starting tier pricing or verified star badges
+   - Real starting tier pricing or verified Stars_Badges
    - Specific free tier and trial limits
 4. 📬 **Submit a Pull Request** with a clear explanation of changes.
 
